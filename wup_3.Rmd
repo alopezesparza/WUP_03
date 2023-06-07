@@ -37,15 +37,17 @@ ggplot(davisdata, aes(x = Seat, y = alcohol)) +
 
 ```
 
-use chat Gpt to create a code for a notched boxplot. 
+use chat Gpt to create a code for a notched boxplot.   
 
 
 ## Numerical Summarys 
 
 ```{r}
 favstats(alcohol~Seat,data=davisdata)
-```
-average is the same as mean, the mean amount of alc that theyre drinking in the back is 9.6 drinks, in the front its 1.8 and in the middle is 3.2. the back rows are drinking more than the rows in front of them. the average amount of drinks in the back is larger than the front or middle. most people are sitting inthe middle row while the least amount of people are sitting in the back. 
+``` 
+  average is the same as mean, the mean amount of alc that theyre drinking in the back is 9.6 drinks, in the front its 1.8 and in the middle is 3.2. the back rows are drinking more than the rows in front of them. the average amount of drinks in the back is larger than the front or middle. most people are sitting inthe middle row while the least amount of people are sitting in the back.   
+    
+    
 ## Inferential Tests
 
 ## Conclusions
