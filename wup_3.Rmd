@@ -49,7 +49,17 @@ favstats(alcohol~Seat,data=davisdata)
     
     
 ## Inferential Tests
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+
+```{r}
+plot(TukeyHSD(model1))
+```
+the difference between the front and the back is drinks is the confidence interval. zero crosses the confidence interval which tells us that the front and the middles have no differences. the back is different from the front and th back is different front the middle but the middle and the front have no difference, there is a difference between the back row and the other two rows.  
+
 
 ## Conclusions
 
-
+ 
