@@ -61,5 +61,4 @@ the difference between the front and the back is drinks is the confidence interv
 
 
 ## Conclusions
-
- 
+We used Chat GPT to create a notch plot that told us the alcohol consumption difference compared to the row seats. we committed and pushed. we copied a code from our numerical~catrmd cheat file adn pasted that to get our numerical table, then we summarized that. we copied another code from the same cheat sheet file and pasted that in to run our ttest, afterwards we ran something called tukeyHSD to help us determine the difference between the rows because the ttest wasn't as clear in telling us the differences. we summarized and played with chat gpt to create an anova result. 
